@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(66, 65, 65);
+}
+
+
+/* body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+#a{  display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#b{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#myProgress {
+    width: 99%;
+    background-color: #ddd;
+    border-radius: 20px;
+  }
+  
+#myBar {
+    border-radius: 20px;
+    width: 0%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#text{
+    color: rgb(228, 56, 56);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#image{
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    display: none;
+}
